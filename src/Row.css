@@ -1,0 +1,15 @@
+.row {
+  text-align:left;
+  margin-top: 10px;
+  height: 75px;
+}
+
+.row__caption, .row__coins {
+  line-height: 75px;
+  height: 75px;
+}
+
+.row__caption {
+  float:left;
+  width: 150px;
+}

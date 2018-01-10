@@ -1,0 +1,36 @@
+.coin {
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  margin:5px;
+  position: relative;
+}
+
+.coin .coin__inner {
+  margin-top: 12px;
+  position: absolute;
+  width: 26px;
+  height: 26px;
+  top: 2px;
+  left: 2px;
+  border-radius: 14px;
+  border: 2px solid gray;
+  cursor: pointer;
+}
+
+.coin .coin__content {
+  line-height: 26px;
+  text-align: center;
+  display: inline-block;
+  width: 26px;
+  color: gray;
+  font-size:0.9rem;
+  top: 0px;
+  left: 0px;
+  position: absolute;
+  user-select: none;
+}
+
+.coin--selected .coin__inner {
+  background-color: bisque;
+}
